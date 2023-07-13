@@ -73,6 +73,7 @@ export const Meetup = () => {
             <SpeakerCard speaker={speaker} />
           ))}
         </div>
+      <button>RSVP</button>
       </div>
     </div>
   );

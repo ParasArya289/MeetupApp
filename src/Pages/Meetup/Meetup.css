@@ -54,9 +54,19 @@
   border-radius: 12px;
   background-color: var(--accent-color);
 }
-.metup-speaker{
+.metup-speaker {
   margin-top: 20px;
   display: flex;
-  gap:20px;
+  gap: 20px;
   flex-wrap: wrap;
+}
+.meetup-misc > button {
+  padding: 10px 30px;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  margin:40px auto;
+  color: var(--primary-color);
+  font-weight: var(--fw-bold);
 }

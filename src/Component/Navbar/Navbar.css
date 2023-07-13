@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #f8f8f8;
 }
 .navbar > .brand {
   color: var(--accent-color);
