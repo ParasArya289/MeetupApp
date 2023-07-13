@@ -1,6 +1,18 @@
 .home {
   color: var(--primary-text-color);
 }
+.home-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-heading > select {
+  height: 2rem;
+  width: 9rem;
+  border: none;
+  color: var(--secondary-text-color);
+  border-radius: 6px;
+}
 .home-meetings {
   display: flex;
   justify-content: center;
