@@ -1,9 +1,17 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import { Navbar } from "./Component/Navbar/Navbar";
+import { Home } from "./Pages/Home/Home";
+import { Meetup } from "./Pages/Meetup/Meetup";
 
 function App() {
   return (
     <div className="App">
-      <h1>Machine coding round</h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/meetup/:meetupId" element={<Meetup />} />
+      </Routes>
     </div>
   );
 }

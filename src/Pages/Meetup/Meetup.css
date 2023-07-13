@@ -1,0 +1,62 @@
+.meetup {
+  display: flex;
+  gap: 50px;
+  color: var(--primary-text-color);
+}
+.meetup-info-host {
+}
+.meetup-info-host > span:nth-child(2) {
+  display: block;
+  font-weight: var(--fw-bolder);
+  margin-bottom: 40px;
+}
+.meetup-info > img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+}
+.meetup-info-description > p {
+  font-size: small;
+  font-weight: var(--fw-regular);
+}
+.meetup-misc {
+  flex: 0 0 30%;
+}
+.meetup-misc > .metup-time {
+  background-color: var(--primary-color);
+  margin-top: 20px;
+  border-radius: 12px;
+}
+.metup-time > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: large;
+  padding: 20px;
+  gap: 20px;
+}
+.metup-time > div > span {
+  font-size: small;
+  font-weight: var(--fw-regular);
+}
+.meetup-info-additionalinfo > div {
+  font-size: small;
+}
+.meetup-info-additionalinfo > div > span:nth-child(1) {
+  font-weight: var(--fw-bold);
+}
+.event-tags {
+  margin-bottom: 50px;
+}
+.event-tags > span {
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 12px;
+  background-color: var(--accent-color);
+}
+.metup-speaker{
+  margin-top: 20px;
+  display: flex;
+  gap:20px;
+  flex-wrap: wrap;
+}

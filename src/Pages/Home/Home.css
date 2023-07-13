@@ -1,0 +1,9 @@
+.home {
+  color: var(--primary-text-color);
+}
+.home-meetings {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}

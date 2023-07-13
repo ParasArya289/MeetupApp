@@ -1,0 +1,23 @@
+.meetingcard {
+  position: relative;
+  color: var(--primary-text-color);
+}
+.meetingcard > h3 {
+  margin: 0;
+}
+.meetingcard > img {
+  height: 250px;
+  width: 250px;
+  color: var(--hover-color);
+  border-radius: 12px;
+}
+.meetingcard > .meetingcard-eventtype {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 6px;
+  font-size: small;
+  font-weight: var(--fw-regular);
+  background-color: var(--primary-color);
+  border-radius: 8px;
+}

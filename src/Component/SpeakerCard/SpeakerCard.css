@@ -1,0 +1,20 @@
+.speakercard {
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  padding: 20px;
+  width:120px;
+  text-align: center;
+}
+.speakercard > h5 {
+  margin: 0;
+}
+.speakercard > span {
+  font-size: small;
+  font-weight: var(--fw-regular);
+}
+.speakercard > img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
