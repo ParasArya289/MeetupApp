@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Meetup App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Key Features
 
-## Available Scripts
+### Event Listings
 
-In the project directory, you can run:
+- Create an event listing page displaying key details prominently:
+  - Event title
+  - Date
+  - Type of event (Online/Offline)
+  - Thumbnail or image related to the event for visual context
+- Use consistent layout and design for a cohesive and user-friendly experience.
 
-### `npm start`
+### Event Search and Filtering
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Dropdown for Type of Event: Online/Offline/Both (Both as default view).
+- Search box for searching by event title and tags.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Meetup Listing Page
 
-### `npm test`
+#### Event Details and Descriptions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Create individual event pages with comprehensive information:
+  - Detailed event description highlighting key features
+  - Event topic and description, including session timings and speakers/presenters
+  - Pricing details if the event is paid
+  - Event venue details and address
+  - Additional attendee information: dress code, age restrictions, etc.
+  - Display event tags.
 
-### `npm run build`
+### RSVP
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Implement an RSVP feature for users to indicate their intention to attend an event.
+- On clicking the RSVP button:
+  - For a free event, open a modal with input fields for name and email, and an RSVP button.
+  - For a paid event, open a modal with input fields for name and email, an RSVP button, and a note indicating payment at the venue.
+- Allow users to view their RSVP status by changing the button text to "Already RSVPed".
+- If the event time has passed, do not display the RSVP button.
